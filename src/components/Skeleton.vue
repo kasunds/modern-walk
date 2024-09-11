@@ -1,5 +1,5 @@
 <template>    
-    <div v-for="(item, index) in count" :key="index" class="col-3 my-4">
+    <div v-for="(item, index) in count" :key="index" class="col-sm-12 col-md-6 col-lg-3 my-4">
         <v-skeleton-loader
           class="mx-auto border"
           type="heading, image, text, paragraph"

@@ -2,7 +2,7 @@
   <div class="container py-5">
     <h3 class="mb-4 section-title">Categories</h3>
     <div class="row text-center">
-      <div class="col">
+      <div class="col-sm-12 col-md-6 my-4">
         <div class="card mens">
           <div class="card-body d-flex">
             <router-link
@@ -14,7 +14,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6 my-4">
         <div class="card womens">
           <div class="card-body d-flex">
             <router-link

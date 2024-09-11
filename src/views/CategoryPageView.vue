@@ -3,7 +3,7 @@
     <div class="container pt-5">
       <h3 class="mb-4 section-title">{{ prodcutCategory }}</h3>
       <div v-if="products.length > 0" class="row text-center my-4">
-        <div v-for="(item, index) in products" :key="index" class="col-3">
+        <div v-for="(item, index) in products" :key="index" class="col-sm-12 col-md-6 col-lg-3">
           <product :item-data="item" />
         </div>
       </div>
